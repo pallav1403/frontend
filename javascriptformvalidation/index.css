@@ -1,0 +1,37 @@
+.formdesign{
+    font-size: 30px;
+   
+}
+body{
+    padding: 10px 20px;
+    background-color: rgb(222, 230, 176);
+}
+
+.formdesign input.f2{
+    width: 120px;
+    font-size: 20px;
+    background-color: rgb(124, 124, 126);
+   
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(14, 8, 8);
+}
+#button{
+    align-content: center;
+    position: absolute;
+    
+    left: 30%;
+}
+.formdesign input{
+    margin: 10px;
+    border: 2px solid rgb(21, 21, 24);
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 20px;
+
+}
+.formerror{
+    color: red;
+    font-size: 20px;
+}
+

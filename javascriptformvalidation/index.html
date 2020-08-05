@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormValidationPage!!!</title>
+    <link rel="stylesheet" href="index.css">
+   
+</head>
+<body>
+    <h1>YOU CAN REGISTER YOURSELF HERE TO PROCEED..</h1>
+    <form action="/action.php" name="myForm" onsubmit="return validateForm()" method="POST">
+        <div class="formdesign" id="fn">
+   first_name:<input type="text" class="f1" id="fname"   placeholder="first name" required><span class="formerror">*</span>
+</div>
+<div class="formdesign" id="ln">
+   last_name:<input type="text" class="f1" id="lname" placeholder="last name"><span class="formerror"></span>
+</div>
+<div class="formdesign" id="un">
+   username:<input type="text" class="f1" id="uname" placeholder="username"><span class="formerror"></span>
+</div>
+<div class="formdesign" id="num">
+   number:<input type="text" class="f1" id="no" placeholder="contact number"><span class="formerror"></span>
+</div>
+<div class="formdesign" id="email">
+   email:<input type="email" class="f1" id="email" placeholder="email id" required><span class="formerror">*</span>
+   </div>
+   <div class="formdesign" id="pass">
+   password:<input type="password" class="f1" id="pass" placeholder="password" required><span class="formerror">*</span>
+</div>
+<div class="formdesign" id="confpass">
+ confirm_password:<input type="password" class="f1" id="cpass" placeholder="confirm password" required><span class="formerror">*</span>
+</div>
+<div class="formdesign" id="button">
+   <input type="submit" value="SignUp"class="f2" id="but1">
+   <input type="reset" value="clear"class="f2" id="but2">
+</div>
+</form>
+<script src="index.js">
+
+  </script>
+</body>
+</html>
